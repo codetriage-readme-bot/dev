@@ -1,0 +1,41 @@
+body, .mdl-button, .mdl-card__title-text, .mdl-textfield__input, .mdl-snackbar {
+    font-family: 'Exo 2'!important;
+}
+
+.mdl-card__title-text {
+    margin: auto;
+}
+.mdl-layout {
+    align-items: center;
+    justify-content: center;
+}
+.mdl-layout__content {
+    padding-top: 15px;
+}
+.mdl-button, .mdl-card__title {
+    background-color: #bf0e0e!important;
+    color: white!important;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label {
+    color: #bf0e0e!important;
+}
+
+.mdl-textfield__label:after {
+    background-color: #bf0e0e!important;
+}
+
+.mdl-button.large {
+    width: inherit;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: #bf0e0e!important;
+}
+.mdl-snackbar {
+    min-width: 330px!important;
+    max-width: 568px!important;
+}
+.mdl-snackbar__text {
+    text-align: center;
+    padding: 10px 10px 10px 28px;
+}
